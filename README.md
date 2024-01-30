@@ -47,9 +47,9 @@ e deve ser o criador do produtos para Deletar
 
 
 
-#### Autualizar produtos pelo o id do produtos
+#### Atualizar produtos pelo o id do produtos
 o usuario sera nessario logar para acessar esse rota
-e deve ser o criador do produtos para Deletar
+e deve ser o criador do produtos para Atualizar
 ```http
   PUT /products/:id
 ```
