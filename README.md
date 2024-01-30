@@ -3,11 +3,13 @@
 
 Para executar o projeto é nessario usar 
 
+```node
 npm install
-
+```
 e executar 
-
+```node
 npm run start
+```
 
 
 
@@ -52,23 +54,15 @@ e deve ser o criador do produtos para Deletar
   PUT /products/:id
 ```
 
+
 #### Logar na api 
 PASSAR JSON COM email e senha
-
-{"email":"joedhoe@email",
+```json
+ {"email":"joedhoe@email",
   "password":"1234"
-}
-```http
-  POST /login
+} 
 ```
 
-
-#### Logar na api 
-PASSAR JSON COM email e senha
-
-{"email":"joedhoe@email",
-  "password":"1234"
-}
 ```http
   POST /login
 ```
@@ -82,19 +76,23 @@ PASSAR JSON COM email e senha
 #### Criar usuario na api 
 PASSAR JSON COM nome email e senha 
 
-{
+```json
+  POST /users
+```{
   "name": "Fulano",
   "email": "fulano@email.com",
   "password": "9876"
 }
+```
 ```http
   POST /users
 ```
 
 
 #### Criar produtos na api 
-PASSAR JSON COM nome email e senha 
-{
+PASSAR JSON example
+```json
+  {
   "name": "PRODUTO",
   "stock": 5,
   "category": "CATEGORIA",
@@ -102,6 +100,8 @@ PASSAR JSON COM nome email e senha
   "description": "Descrição do produto.",
   "placeholderImage": "https://example.com/placeholder-image.png"
 }
+```
+
 ```http
   POST /products
 ```
