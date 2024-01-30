@@ -77,8 +77,7 @@ PASSAR JSON COM email e senha
 PASSAR JSON COM nome email e senha 
 
 ```json
-  POST /users
-```{
+  {
   "name": "Fulano",
   "email": "fulano@email.com",
   "password": "9876"
